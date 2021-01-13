@@ -1,23 +1,23 @@
 ## Ex3
 
-## The project
+### The project
 
 In this project, we used Python in order to build a directed and weighted graph.
 - Weighted means that the edge has a weight superior to 0.
 - Directed means that we have 2 nodes : one of them is a src and the other is dest.
 
-## The Classes
+### The Classes
 
-#Edgedata : this class gives each edge in a weighted graph 2 nodes. Each edge is connected to 2 nodes (vertex) - src and dest - and has a weight. 
+##Edgedata : this class gives each edge in a weighted graph 2 nodes. Each edge is connected to 2 nodes (vertex) - src and dest - and has a weight. 
  
-#Nodedata : this class gives each node in a weighted graph, an id, a location, a weight and a tag
+##Nodedata : this class gives each node in a weighted graph, an id, a location, a weight and a tag
 
-#Digraph : we used a dict which has a key and value. The dic is a dictionnary that plays the role of an hashmap within an hashmap.
+##Digraph : we used a dict which has a key and value. The dic is a dictionnary that plays the role of an hashmap within an hashmap.
               The first dict is for the vertices and the second one is for the edges.
 
-#GraphAlgo : like in the Ex_2 we used the 2 algorithms : Tarjan and Dijkstra.
+##GraphAlgo : like in the Ex_2 we used the 2 algorithms : Tarjan and Dijkstra.
 
-#Tarjan : an algorithm that divides the graph into components.
+##Tarjan : an algorithm that divides the graph into components.
           
           
 The algorithm : Each node is placed on a stack in order of their visit.
@@ -34,7 +34,7 @@ All component : If the graph is valid, we can access from any node and go to any
 
 
 
-#Dijkstra : It recieves 2 nodes - src ad dest. It goes from the src to the dest node and go in the direction of the node with the lowest weight.
+##Dijkstra : It recieves 2 nodes - src ad dest. It goes from the src to the dest node and go in the direction of the node with the lowest weight.
 
 The algorithm : we mark the selected initial node with a current distance of 0 and the rest with infinity.
                *We set the non-visited node with the smallest current distance as the current node C.
