@@ -5,7 +5,7 @@
 In this project, we used Python in order to build a directed and weighted graph.
 - Weighted means that the edge has a weight superior to 0.
 - Directed means that we have 2 nodes : one of them is a src and the other is dest.
-![image]https://i.morioh.com/2020/01/15/ca0df6b3edfc.jpg
+![alt text](https://i.morioh.com/2020/01/15/ca0df6b3edfc.jpg)
 
 
 #### The Classes
