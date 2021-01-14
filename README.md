@@ -5,7 +5,6 @@
 In this project, we used Python in order to build a directed and weighted graph.
 - Weighted means that the edge has a weight superior to 0.
 - Directed means that we have 2 nodes : one of them is a src and the other is dest.
-![alt text](https://i.morioh.com/2020/01/15/ca0df6b3edfc.jpg)
 
 
 #### The Classes
@@ -30,7 +29,7 @@ Tarjan's algorithm is based on depth first search (DFS). The vertices are indexe
                 L is a vertex with the least index that can be reach from V. 
                 Nodes with the same representative assigned are located in the same strongly connected component.
       
-      [alt text]()
+[alt text](http://alexvolov.com/wp-content/uploads/2015/02/scc4.png)
       
 One component : We send one node and he returns the component in which each node is connected to it.
 
@@ -48,3 +47,4 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
                 If there are non-visited nodes, go to step *.
 
 
+![alt text](https://i.morioh.com/2020/01/15/ca0df6b3edfc.jpg)
