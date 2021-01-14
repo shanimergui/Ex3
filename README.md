@@ -29,7 +29,7 @@ Tarjan's algorithm is based on depth first search (DFS). The vertices are indexe
                 L is a vertex with the least index that can be reach from V. 
                 Nodes with the same representative assigned are located in the same strongly connected component.
       
-![alt text](https://iq.opengenus.org/content/images/2019/06/Kosaraju.png)
+![alt text]()
       
 One component : We send one node and he returns the component in which each node is connected to it.
 
@@ -47,4 +47,4 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
                 If there are non-visited nodes, go to step *.
 
 
-![alt text](https://i.morioh.com/2020/01/15/ca0df6b3edfc.jpg)
+![alt text]()
