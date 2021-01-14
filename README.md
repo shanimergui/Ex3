@@ -32,7 +32,7 @@ Tarjan's algorithm is based on depth first search (DFS). The vertices are indexe
                 L is a vertex with the least index that can be reach from V. 
                 Nodes with the same representative assigned are located in the same strongly connected component.
       
-![alt text]()
+![alt text](https://thealgoristsblob.blob.core.windows.net/thealgoristsimages/F1B43161-C35A-4900-ADC6-BBFF803405F6.jpeg)
       
 One component : We send one node and he returns the component in which each node is connected to it.
 
