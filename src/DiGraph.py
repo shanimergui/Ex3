@@ -45,7 +45,7 @@ class DiGraph(GraphInterface):
         if node_id in self.__vertexs:
             in_edge = self.all_in_edges_of_node(node_id)
             out_edge = self.all_out_edges_of_node(node_id)
-            self.__mc += len(in_edge)+len(out_edge)
+            #self.__mc += len(in_edge)+len(out_edge)
             self.__Size_e -= len(in_edge)
             self.__Size_e -= len(out_edge)
             for x in in_edge:

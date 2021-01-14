@@ -182,6 +182,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(self.g.add_edge(1, 0, 1))
         self.assertEqual(self.g.e_size(), 4)
 
+
         for x in range(6, 10):
             self.assertTrue(self.g.add_node(x))
         for x in range(6, 10, 2):
