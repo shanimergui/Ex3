@@ -51,9 +51,12 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
 
 # Sources : 
 https://www.youtube.com/watch?v=wUgWX0nc4NY&list=RDCMUCD8yeTczadqdARzQUp29PJw&index=1
+
 https://www.youtube.com/watch?v=pSqmAO-m7Lk
+
 https://www.youtube.com/watch?v=7fujbpJ0LB4
+
 https://www.youtube.com/watch?v=TXkDpqjDMHA
-https://youtu.be/pSqmAO-m7Lk
+
 
 
