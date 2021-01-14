@@ -64,6 +64,8 @@ class TestStringMethods(unittest.TestCase):
         self.assertTrue(self.g.add_edge(1, 0, 1))
 
         self.assertEqual(self.g.get_mc(), 10)
+        self.assertTrue(self.g.remove_node(0))
+        self.assertEqual(self.g.get_mc(), 11)
 
     def test_add_edge(self):
         for x in range(6):

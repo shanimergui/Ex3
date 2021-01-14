@@ -56,7 +56,8 @@ class DiGraph(GraphInterface):
             #remove vertex
             self.__vertexs.pop(node_id)
             return True
-        else: return False
+        else:
+            return False
 
     def remove_edge(self, node_id1: int, node_id2: int) -> bool:
         if node_id1 is not node_id2 and node_id1 in self.__vertexs and node_id2 in self.__vertexs and node_id2 in self.__edges.get(node_id1):
