@@ -1,27 +1,25 @@
-## Ex3
-
-![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e3/Weighted_directed_graph.png)
 
 
-#### The project
+### The project
 
 In this project, we used Python in order to build a directed and weighted graph.
 - Weighted means that the edge has a weight superior to 0.
 - Directed means that we have 2 nodes : one of them is a src and the other is dest.
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e3/Weighted_directed_graph.png)
 
-#### The Classes
+### The Classes
 
-###Edgedata : this class gives each edge in a weighted graph 2 nodes. Each edge is connected to 2 nodes (vertex) - src and dest - and has a weight. 
+## Edgedata : this class gives each edge in a weighted graph 2 nodes. Each edge is connected to 2 nodes (vertex) - src and dest - and has a weight. 
  
-###Nodedata : this class gives each node in a weighted graph, an id, a location, a weight and a tag
+## Nodedata : this class gives each node in a weighted graph, an id, a location, a weight and a tag
 
-###Digraph : we used a dict which has a key and value. The dic is a dictionnary that plays the role of an hashmap within an hashmap.
+## Digraph : we used a dict which has a key and value. The dic is a dictionnary that plays the role of an hashmap within an hashmap.
               The first dict is for the vertices and the second one is for the edges.
 
-###GraphAlgo : like in the Ex_2 we used the 2 algorithms : Tarjan and Dijkstra.
+## GraphAlgo : like in the Ex_2 we used the 2 algorithms : Tarjan and Dijkstra.
 
-###Tarjan : an algorithm that divides the graph into components.
+## Tarjan : an algorithm that divides the graph into components.
           
           
 The algorithm : Each node is placed on a stack in order of their visit.
@@ -32,7 +30,6 @@ Tarjan's algorithm is based on depth first search (DFS). The vertices are indexe
                 L is a vertex with the least index that can be reach from V. 
                 Nodes with the same representative assigned are located in the same strongly connected component.
       
-![alt text](https://thealgoristsblob.blob.core.windows.net/thealgoristsimages/F1B43161-C35A-4900-ADC6-BBFF803405F6.jpeg)
       
 One component : We send one node and he returns the component in which each node is connected to it.
 
@@ -40,7 +37,7 @@ All component : If the graph is valid, we can access from any node and go to any
 
 
 
-###Dijkstra : It recieves 2 nodes - src ad dest. It goes from the src to the dest node and go in the direction of the node with the lowest weight.
+## Dijkstra : It recieves 2 nodes - src ad dest. It goes from the src to the dest node and go in the direction of the node with the lowest weight.
 
 The algorithm : we mark the selected initial node with a current distance of 0 and the rest with infinity.
                *We set the non-visited node with the smallest current distance as the current node C.
@@ -52,4 +49,10 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
 
 ![alt text](https://www.techiedelight.com/wp-content/uploads/2016/11/Dijkstras-7.png)
 
-![alt text]()
+## Sources : 
+https://www.youtube.com/watch?v=wUgWX0nc4NY&list=RDCMUCD8yeTczadqdARzQUp29PJw&index=1
+https://www.youtube.com/watch?v=pSqmAO-m7Lk
+https://www.youtube.com/watch?v=7fujbpJ0LB4
+https://www.youtube.com/watch?v=TXkDpqjDMHA
+
+
