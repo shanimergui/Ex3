@@ -1,5 +1,8 @@
 ## Ex3
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/e/e3/Weighted_directed_graph.png)
+
+
 #### The project
 
 In this project, we used Python in order to build a directed and weighted graph.
@@ -46,5 +49,7 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
                 Mark the current node C as visited.
                 If there are non-visited nodes, go to step *.
 
+
+![alt text]()
 
 ![alt text]()
