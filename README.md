@@ -50,6 +50,6 @@ The algorithm : we mark the selected initial node with a current distance of 0 a
                 If there are non-visited nodes, go to step *.
 
 
-![alt text]()
+![alt text](https://www.techiedelight.com/wp-content/uploads/2016/11/Dijkstras-7.png)
 
 ![alt text]()
